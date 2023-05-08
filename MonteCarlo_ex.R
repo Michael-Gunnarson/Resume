@@ -1,5 +1,6 @@
 # Michael Gunnarson
 # Summer 2022
+# Written in R 4.2.0
 
 rm(list = ls())
 
