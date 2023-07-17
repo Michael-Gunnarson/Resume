@@ -4,6 +4,6 @@ You will find projects in R, Python, Matlab, and Arduino.  I love coding and enj
 to help solve engineering problems.  
 
 If you find my work compelling, feel free to reach out to me on LinkedIn, https://www.linkedin.com/in/michael-gunnarson-966aa321a/ 
-I'm currently looking for work near Seattle Washington as a GNC Engineer.  I look forward to hearing from you!
+I'm currently looking for work near Seattle Washington in GNC, Navigation, Flight Dynamics, or even Software Design relating to spacecraft.  I look forward to hearing from you!
 
 -Michael Gunnarson
