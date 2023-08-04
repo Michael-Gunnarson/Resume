@@ -1,13 +1,13 @@
-make: OrbitsTest.o Orbit.o SanityFunctions.o VectorMath.o Transfers.o
-	g++ OrbitsTest.o Orbit.o SanityFunctions.o VectorMath.o -o OrbitsTest
+make: OrbitsTest.o Orbits.o SanityFunctions.o VectorMath.o Transfers.o
+	g++ OrbitsTest.o Orbits.o SanityFunctions.o VectorMath.o -o OrbitsTest
 
-OrbitsTest.o: OrbitsTest.cpp Orbit.cpp Orbit.hpp OrbitPosition.cpp OrbitPosition.hpp SanityFunctions.cpp SanityFunctions.hpp
+OrbitsTest.o: OrbitsTest.cpp Orbits.cpp Orbits.hpp SanityFunctions.cpp SanityFunctions.hpp
 	g++ -c OrbitsTest.cpp
 
-Orbit.o: Orbit.cpp Orbit.hpp SanityFunctions.cpp SanityFunctions.hpp VectorMath.cpp VectorMath.hpp
-	g++ -c Orbit.cpp
+Orbits.o: Orbits.cpp Orbits.hpp SanityFunctions.cpp SanityFunctions.hpp VectorMath.cpp VectorMath.hpp
+	g++ -c Orbits.cpp
 
-Transfers.o: Transfers.cpp Transfers.hpp Orbit.cpp Orbit.hpp SanityFunctions.cpp SanityFunctions.hpp VectorMath.cpp VectorMath.hpp
+Transfers.o: Transfers.cpp Transfers.hpp Orbits.cpp Orbits.hpp SanityFunctions.cpp SanityFunctions.hpp VectorMath.cpp VectorMath.hpp
 	g++ -c Transfers.cpp
 
 SanityFunctions.o: SanityFunctions.cpp SanityFunctions.hpp
