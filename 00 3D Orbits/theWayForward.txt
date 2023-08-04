@@ -1,0 +1,20 @@
+So there are a few things that need to be done:
+find r vector
+    -perifocal to xyz coord sys
+        -vector maths
+create lambert solver
+    -lots of something
+    -using r and v at end to find vector components of e and H,
+     resulting in solivng for inclination, LAAN, etc.
+transfer flyby material
+transfer SOI material
+create database of planets, gravity, and orbital parameters
+use lambert to create general solver
+figure out how tf to create a cycler orbit
+
+once that is done:
+interface cpp with python for speed
+create python functions for large units of orbit solivng
+figure out how to implement into GMAT
+
+Come up with better names for the orbit segments
